@@ -1,4 +1,3 @@
-require('bridger.remap')
-require("packer.lua")
-print('hello from bridger')
-
+require('bridger.remap') 
+require('bridger.set')
+require('packer.lua')
