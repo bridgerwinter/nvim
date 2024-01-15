@@ -7,3 +7,5 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 -- windows
 git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim"
 
+
+to do: map out all custom keybinds in readme.
