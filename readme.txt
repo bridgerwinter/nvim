@@ -1,3 +1,5 @@
+This is my personal nvim configuration.
+
 When creating a new instance of your nvim setup, run this clone
 
 -- linux
