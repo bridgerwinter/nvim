@@ -1,4 +1,9 @@
 local builtin = require('telescope.builtin')
+require('telescope').setup{ 
+	defaults = {
+		path_display = { "smart" }
+		}
+	}
 vim.keymap.set('n', '<leader>ff', builtin.find_files, {})
 vim.keymap.set('n', '<leader>gf', builtin.git_files, {})
 vim.keymap.set('n', '<leader>fs', function()
