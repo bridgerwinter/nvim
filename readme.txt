@@ -1,5 +1,11 @@
 This is my personal nvim configuration.
 
+git auto-completion:
+
+sudo apt-get install bash-completion
+source /etc/bash_completion
+
+
 When creating a new instance of your nvim setup, run this clone
 
 -- linux
