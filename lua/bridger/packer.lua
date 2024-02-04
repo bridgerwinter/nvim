@@ -1,6 +1,9 @@
 -- Only required if you have packer configured as `opt`
 vim.cmd [[packadd packer.nvim]]
 
+require 'lspconfig'.volar.setup{
+filetypes={'typescript','javascript','vue','json'}}
+
 return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
@@ -21,6 +24,7 @@ use('xiyaowong/transparent.nvim')
   use('nvim-treesitter/playground')
   use('theprimeagen/harpoon')
   use('mbbill/undotree')
+  use('nvim-tree/nvim-tree.lua')
   use('tpope/vim-fugitive')
   use {
   'VonHeikemen/lsp-zero.nvim',
