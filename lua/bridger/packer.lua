@@ -1,6 +1,10 @@
 -- Only required if you have packer configured as `opt`
 vim.cmd [[packadd packer.nvim]]
 
+local lsp_zero=require('lsp-zero')
+lsp_zero.extend_lspconfig()
+
+
 require 'lspconfig'.volar.setup{
 filetypes={'typescript','javascript','vue','json'}}
 
